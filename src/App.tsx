@@ -64,12 +64,12 @@ export default function App() {
                     {item.label}
                   </a>
                 ))}
-                <ThemeToggle />
+                {/* <ThemeToggle /> */}
               </div>
 
               {/* Mobile menu */}
               <div className="md:hidden flex items-center space-x-2">
-                <ThemeToggle />
+                {/* <ThemeToggle /> */}
                 <Button
                   variant="ghost"
                   size="icon"
