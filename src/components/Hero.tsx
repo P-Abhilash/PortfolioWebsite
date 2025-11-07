@@ -121,7 +121,7 @@ export function Hero() {
               </div>
               <div className="text-center">
                 <div className="text-2xl md:text-3xl mb-1 font-semibold">
-                  3+
+                  5+
                 </div>
                 <div className="text-sm text-muted-foreground">
                   Projects Deployed
