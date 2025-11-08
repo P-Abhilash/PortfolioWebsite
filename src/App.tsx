@@ -40,6 +40,21 @@ export default function App() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  useEffect(() => {
+    const urls = [
+      "https://bookshelf-lq5o.onrender.com/",
+      "https://campexplorer-1uxp.onrender.com/",
+    ];
+
+    urls.forEach((url) => {
+      fetch(url, {
+        mode: "no-cors",
+      })
+        .then(() => console.log(`✅ Woke up (no-cors): ${url}`))
+        .catch((err) => console.warn(`⚠️ Failed to wake ${url}:`, err));
+    });
+  }, []);
+
   return (
     <ThemeProvider defaultTheme="system" storageKey="portfolio-theme">
       <div className="min-h-screen bg-background transition-colors duration-300">
