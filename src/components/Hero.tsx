@@ -84,7 +84,7 @@ export function Hero() {
               </a>
 
               <a
-                href="https://www.linkedin.com/in/abhilashreddy-pannala-b73757181/"
+                href="https://www.linkedin.com/in/abhilashpannala/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
